@@ -685,6 +685,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 border-color:#4d5ae5;
 }
 
+.form-field-comment {
+margin-bottom: 16px;
+}
+
 .form-field-textarea {
 font-size: 12px;
 line-height: 1.17;
