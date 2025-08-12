@@ -530,14 +530,16 @@
         <div class="subscribe-form-footer">
           <p class="form-text-footer">Subscribe</p>
           <form class="form-footer">
-            <input
+            <label class="form-label-footer">
+              <input
               class="form-input-footer"
               name="user-email"
               type="email"
               id="user-email-footer"
               placeholder="E-mail"
             />
-            <label class="form-label-footer" for="user-email-footer"></label>
+            </label>
+            
             <button class="form-button-footer" type="submit">
               Subscribe<svg width="24" height="24" class="subscribe-icon">
                 <use href="./images/icons.svg#icon-send"></use>
@@ -560,13 +562,13 @@
 
         <form>
           <div class="form-field-wrapper">
-            <label class="form-field-label" for="field-name">Name</label>
+            <label class="form-field-label" for="user-name">Name</label>
 
             <div class="form-field-input-wrapper">
               <input
                 class="form-field-text-input"
-                name="field-name"
-                id="field-name"
+                name="user-name"
+                id="user-name"
                 type="text"
               />
               <svg class="form-field-icon" width="18" height="24">
@@ -576,13 +578,13 @@
           </div>
 
           <div class="form-field-wrapper">
-            <label class="form-field-label" for="field-number">Phone</label>
+            <label class="form-field-label" for="user-number">Phone</label>
 
             <div class="form-field-input-wrapper">
               <input
                 class="form-field-text-input"
-                name="field-number"
-                id="field-number"
+                name="user-number"
+                id="user-number"
                 type="tel"
               />
               <svg class="form-field-icon" width="18" height="24">
@@ -608,11 +610,11 @@
           </div>
 
           <div class="form-field-wrapper">
-            <label class="form-field-label" for="field-comment">Comment</label>
+            <label class="form-field-label" for="user-comment">Comment</label>
             <textarea
               class="form-field-textarea"
-              name="field-comment"
-              id="field-comment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -621,11 +623,11 @@
             <input
               class="checkbox visually-hidden"
               type="checkbox"
-              name="privacy"
-              id="privacy"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
             />
-            <label class="form-label-checkbox" for="privacy"
+            <label class="form-label-checkbox" for="user-privacy"
               ><span class="form-custom-checkbox">
                 <svg class="custom-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
